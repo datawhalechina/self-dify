@@ -65,7 +65,7 @@ Datawhale 现有的大模型教程暂无快速让开发者快速系统且完善�
     - [3.4 wordpress调用dify api的坑点](3.%20Dify%20with%20WordPress/3.4%20wordpress调用dify%20api的坑点.md)
 - 第四章 Dify 知识库
     - [4.1 知识库介绍及数据准备](4.%20Dify%20知识库/4.1%20知识库介绍及数据准备.md)
-    - [4.2 4.2 RAG配置与应用实现](4.%20Dify%20知识库/4.2%20RAG配置与应用实现.md)
+    - [4.2 RAG配置与应用实现](4.%20Dify%20知识库/4.2%20RAG配置与应用实现.md)
 - 第五章 Dify workflow设计与实现
     - [5.1 智能体及工具介绍（各种agent框架介绍）](5.%20Dify%20workflow设计与实现/5.1%20智能体及工具介绍.md)
     - [5.2 Dify工作流的实现方式（单元测试）](5.%20Dify%20workflow设计与实现/5.2%20Dify工作流的实现方式.md)
