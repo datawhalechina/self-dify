@@ -1,4 +1,4 @@
-# self-Dify 
+# self-dify 
 
 # 一、项目简介
 
