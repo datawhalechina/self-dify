@@ -75,6 +75,16 @@ Datawhale 现有的大模型教程暂无快速让开发者快速系统且完善�
     - [6.1 Gradio介绍](6.%20Dify%20with%20Gradio/6.1%20Gradio介绍.md)
     
 
+## 鸣谢
+感谢[苏洋](https://github.com/soulteary)大佬对本项目内容的支持。欢迎更多小伙伴加入编写。
+
+## 贡献
+
+如果您发现任何错误、拼写错误或者其他需要改进之处，请毫不犹豫地通过提交[问题报告](https://github.com/datawhalechina/self-dify/issues)或者直接提交[拉取请求](https://github.com/datawhalechina/self-dify/pulls)的方式帮助我们改善这份文档。
+
+## 许可证
+
+本网站内容遵循[知识共享署名-相同方式共享 4.0 国际许可协议](LICENSE-CC-BY-SA)。
 
 ## 引用
 
