@@ -1,83 +1,62 @@
-# self-dify 
+# 🤓 self-dify2.0
 
-# 一、项目简介
+## 教程介绍
 
-```
-本项目是由Datawhale成员制作，针对Dify（大模型应用开发框架）使用的教程项目，并借助Dify通过零代码或低代码方式开发你的智能体项目。针对大语言模型入门学习者、有使用百度灵镜及coze智能体经验并且想做个人项目的开发者、有本地知识库搭建需求的开发者、对大语言模型有进阶需求的学习者。本次Dify项目中不乏经典智能体开发项目，助你在完成自己智能体时乘风破浪。我们也希望通过这个开源项目让更多的普通学生、开发者更好地使用大模型，帮助开源、自由的大模型更快融入到普通学习者的生活与工作中，推动AI+X快速发展！
-```
+> self-dify2.0 致力于成为你的大模型应用开发指南教程。带你从0开始学习并掌握基于dify的大模型应用开发。
 
-本项目的主要内容包括：
+本教程将全面指导你如何快速搭建自己的AI应用环境，从Docker桌面版的安装与配置开始，到本地部署Dify并自定义AI助手功能，让你轻松实现“猜病例”、“甜蜜哄人”、“新生入学指南”、“小红书读书卡片”与“面试宝典”等多种特色AI应用。并教会你从基础智能体到使用工作流，再到知识库、DeepResearch、数据库、MCP、复杂任务编排等高阶任务，由浅到深的学习掌握基于dify的大模型应用开发。
 
-1. Dify 框架理解与安装；
-2. Dify 基础应用；
-3. Dify with WordPress；
-4. Dify 知识库；
-5. Dify workflow 设计与实现；
-6. Dify with Gradio；
-7. Dify with 多智能体。
+## 教程官方地址
+https://www.datawhale.cn/learn/summary/168
 
-   **项目的主要内容是制作教程，让更多的学生和未来的从业者了解和熟悉大模型项目开发过程！任何人都可以提出 issue 或是提交 PR，共同构建维护这个项目。**
+## 教程目录
 
-  想要深度参与的同学可以联系我们，我们会将你加入到项目的维护者中。
+### 环境配置
 
-# 二、立项理由
+1.  [Dify本地部署](https://datawhaler.feishu.cn/wiki/COa5w9crQiJt5ckQAR2cqm9LnSh)教程涵盖以下内容：
+    *   **Docker安装与配置**：包含Mac和Windows系统安装步骤，Docker镜像源加速技巧。
+    *   **Dify本地部署**：详细介绍使用Docker Compose快速启动AI应用服务。
 
-```
-  经历过大语言模型如火如荼发展的2023年后，大家发现大语言模型的功能逐渐接近同质化，各个厂家的大语言模型也越来越相近。经过一年的迭代，目前的大语言模型有了一定的“智慧”，可以帮助我们稳定有效地完成一些简单的任务。然而目前我们在开发使用大语言模型时往往会遇到，单凭大语言模型无法完成某些专业知识的回答，有时需要借助专业知识来回答；单凭大语言模型无法满足所有任务需要，有时需要使用外部工具。但是结合大语言模型及各种工具知识又需要代码开发，无形中对很多不熟悉代码开发的小伙伴形成了门槛。遇到这种情况阻碍了很多学习和非本专业的开发者对大模型应用的开发。
+### 入门任务
 
-  目前有了dify这样友好的工具，可以大大提升大语言模型的功能。所以我们想通过本项目教会大家快速上手dify，并且创建自己的大语言模型智能体。通过本项目，可以帮助各行业的小伙伴推进开发大语言模型应用的速度，对于一些开发上的技术难点将不再是困难。
-```
+2.  [掌握提示词（prompt）设计](https://datawhaler.feishu.cn/wiki/Edk1wZZ9qikrY4kMAiicgNVonbh?fromScene=spaceOverview)，角色模拟及AI交互控制。
+3.  [哄哄模拟器](https://datawhaler.feishu.cn/wiki/Ih64wA1MFiyyZFk9mVtcmHiPntc?fromScene=spaceOverview) 学习如何利用提示词与数值反馈设计互动游戏，增强AI响应的掌握如何创建和配置Agent工作流，实现输入处理、信息检索、内容生成及格式转换的自动化，优化任务执行效率。情感交互效果。
+4.  [新生入学指南助手](https://datawhaler.feishu.cn/wiki/S3cNwyRQJifgHekTVaIcbE3bnYm?fromScene=spaceOverview)熟悉如何导入并高效检索知识库，创建基于知识库索引的精准信息问答应用。
+5.  [快速批处理小问题](https://spvrm23ffj.feishu.cn/wiki/KL7PwhcFUinbyxkMOfsckxBun7f)，带领大家学习dify批量任务编排，并学习数据处理分析制作词云。
 
-_      _**我们希望借助 dify 框架，更友好的帮助大语言模型的开发者们完成自己的大语言模型应用，让 AI+X 来的更早一些。**
+### 进阶任务
 
-# 三、**项目受众**
+6.  [小红书读书卡片](https://datawhaler.feishu.cn/wiki/ZB3ZwD2foi2EWukNypecpVtrnoY)，掌握如何创建和配置Agent工作流，实现输入处理、信息检索、内容生成及格式转换的自动化，优化任务执行效率。
+7.  [面试宝典](https://datawhaler.feishu.cn/wiki/QPqEwU68NizMAgkfr0Gc2LMqn5H)，深入理解如何创建高效知识库索引，搭配Agent实现精准的专业知识咨询和检索。
+8.  [text2sql及echart数据分析](https://spvrm23ffj.feishu.cn/wiki/ZnHOwThLPi0D0CkNp1VcpTHinhe)，学习dify与数据库交互，打开数据与AI交互新思路。了解echart数据分析图表展示，上手数据分析大模型应用任务。
+9.  [DeepResearch](https://spvrm23ffj.feishu.cn/wiki/HKlBw23R4iZaBnkcLlHcnPjPneh?fromScene=spaceOverview)，学习DeepResearch原理，快速上手一个自己的DeepResearch应用项目。带你了解dify的高阶玩法。
 
-  本项目适合以下学习者：
+### 工具使用
 
-- 期望制作一个本地运行大模型项目；
-- 快速实现智能体；
-- 通过 api 或本地大模型方便使用本地知识库；
-- 想用大模型完成行业内的 AI+X 升级；
-- 本地实现大模型应用，有复杂大模型需求，需要封装好智能体应用 api；
-- 想做智能体且有开发经验但是不想学 python 的非 python 语言玩家；
-- 以及最广大、最普通的学生群体。
+10. [MCP](https://spvrm23ffj.feishu.cn/docx/Nmbjde0GtoLMvBxuy4hc3YHTnVc?from=from_lark_index_search&ccm_open_type=from_lark_index_search)，学习MCP clicent在dify的配置与应用，掌握MCP应用原理，在dify玩转mcp~
+11. [多模态入门（语音文本转化）](https://spvrm23ffj.feishu.cn/docx/Nmbjde0GtoLMvBxuy4hc3YHTnVc)，了解dify语音文本转化的实现方案，快速完成自己的语音智能体，给大模型发个小嘴巴~
 
-# 四、**项目亮点**
+## 教程贡献者
+王熠明
+高增宇
+刘伟鸿
+甘小琦
+杨若朴
+陈欣婧
+邓宇文
+潘笃驿
+王浩
+张友东
+周理璇
 
-Datawhale 现有的大模型教程暂无快速让开发者快速系统且完善搭建智能体，我们有 self-llm 及 llm-universe 这样超受欢迎的大模型算法使用课程及 huggingllm 这样的硬核 metagpt 开发课程，但是缺少应用开发课程可以让开发者们方便快捷将大模型和应用打通，帮助自己完成自己大模型 + 应用。所以我们希望用 self-dify 项目带着大家快速入手智能体开发，用零代码或低代码方式，使用知识库、大模型 api、tools 搭建智能体应用。我们会适当涵盖一些前端开发内容，保证知识覆盖到开发大模型产品的全栈技术点。
+## 往期教程
+大家可以下载后
+    git checkout v1.0.0 即可。
 
-# 五、项目框架
+## 贡献
 
-- 目录
-- 第一章 Dify框架理解与安装
-    - [1.1 Dify背景与课程介绍](1.%20Dify框架理解与安装/1.1%20Dify背景与课程介绍.md)
-    - [1.2 Dify使用与部署](1.%20Dify框架理解与安装/1.2%20Dify使用与部署.md)
-- 第二章 Dify 基础应用
-    - [2.1 prompt提示工程](2.%20Dify%20基础应用/2.1%20prompt提示工程.md)
-    - [2.2 各类模型接入](2.%20Dify%20基础应用/2.2%20各类模型接入.md)
-    - [2.3 聊天助手](2.%20Dify%20基础应用/2.3%20聊天助手.md)
-    - [2.4 文本生成应用](2.%20Dify%20基础应用/2.4%20文本生成应用.md)
-    - [2.5 智能体](2.%20Dify%20基础应用/2.5%20智能体.md)
-- 第三章 Dify with WordPress （你的智能体网页）
-    - [3.1 WordPress 介绍](3.%20Dify%20with%20WordPress/3.1%20WordPress%20介绍.md)
-    - [3.2 WordPress 环境搭建及Dify结合](3.%20Dify%20with%20WordPress/3.2%20WordPress%20环境搭建及Dify结合.md)
-    - [3.3 Dify 创建一个“AI 文本生成”应用](3.%20Dify%20with%20WordPress/3.3%20Dify%20创建一个“AI%20文本生成”应用.md)
-    - [3.4 wordpress调用dify api的坑点](3.%20Dify%20with%20WordPress/3.4%20wordpress调用dify%20api的坑点.md)
-- 第四章 Dify 知识库
-    - [4.1 知识库介绍及数据准备](4.%20Dify%20知识库/4.1%20知识库介绍及数据准备.md)
-    - [4.2 RAG配置与应用实现](4.%20Dify%20知识库/4.2%20RAG配置与应用实现.md)
-- 第五章 Dify workflow设计与实现
-    - [5.1 智能体及工具介绍（各种agent框架介绍）](5.%20Dify%20workflow设计与实现/5.1%20智能体及工具介绍.md)
-    - [5.2 Dify工作流的实现方式（单元测试）](5.%20Dify%20workflow设计与实现/5.2%20Dify工作流的实现方式.md)
-    - [5.3 Dify 实现一个论文抓取工作流](5.%20Dify%20workflow设计与实现/5.3%20Dify%20实现一个论文抓取工作流.md)
-    - [5.4 Dify论文分析工作流项目的设计与实现](5.%20Dify%20workflow设计与实现/5.4%20Dify论文分析工作流项目的设计与实现.md)
-- 第六章 Dify with Gradio
-    - [6.1 Gradio介绍](6.%20Dify%20with%20Gradio/6.1%20Gradio介绍.md)
-    
+如果您发现任何错误、拼写错误或者其他需要改进之处，请毫不犹豫地通过提交[问题报告](https://github.com/datawhalechina/self-dify/issues)或者直接提交[拉取请求](https://github.com/datawhalechina/self-dify/pulls)的方式帮助我们改善这份文档。
 
+## 许可证
 
-## 引用
-
-[1] 使用 Dify 和 Moonshot API 构建你的 AI 工作流（一）：让不 AI 的应用 AI 化- [https://mp.weixin.qq.com/s/qOBZdDiVbv5uSZDKd83-EQ](https://mp.weixin.qq.com/s/qOBZdDiVbv5uSZDKd83-EQ)
-
-[2]最佳实践 ｜ 如何在 Dify 用 Workflow 构建一个 Blog SEO AI 应用？- [https://mp.weixin.qq.com/s/g9Bc777PiliBWtd5I9rJFQ](https://mp.weixin.qq.com/s/g9Bc777PiliBWtd5I9rJFQ)
+本网站内容遵循[知识共享署名-相同方式共享 4.0 国际许可协议](LICENSE-CC-BY-SA)。
