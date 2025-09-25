@@ -6,9 +6,6 @@
 
 本教程将全面指导你如何快速搭建自己的AI应用环境，从Docker桌面版的安装与配置开始，到本地部署Dify并自定义AI助手功能，让你轻松实现“猜病例”、“甜蜜哄人”、“新生入学指南”、“小红书读书卡片”与“面试宝典”等多种特色AI应用。并教会你从基础智能体到使用工作流，再到知识库、DeepResearch、数据库、MCP、复杂任务编排等高阶任务，由浅到深的学习掌握基于dify的大模型应用开发。
 
-## 教程官方地址
-https://www.datawhale.cn/learn/summary/168
-
 ## 教程目录
 
 ### 环境配置
@@ -58,5 +55,6 @@ https://www.datawhale.cn/learn/summary/168
 如果您发现任何错误、拼写错误或者其他需要改进之处，请毫不犹豫地通过提交[问题报告](https://github.com/datawhalechina/self-dify/issues)或者直接提交[拉取请求](https://github.com/datawhalechina/self-dify/pulls)的方式帮助我们改善这份文档。
 
 ## 许可证
+
 
 本网站内容遵循[知识共享署名-相同方式共享 4.0 国际许可协议](LICENSE-CC-BY-SA)。
