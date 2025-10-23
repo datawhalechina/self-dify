@@ -130,18 +130,18 @@ sudo systemctl status docker
 
 **CentOS系统特别说明：**
 
-1) 启用Docker服务开机自启动（推荐）
+(1). 启用Docker服务开机自启动（推荐）
 ```
 sudo systemctl enable docker
 ```
 
-2. 添加当前用户到docker组（可选，避免每次使用sudo）
+(2). 添加当前用户到docker组（可选，避免每次使用sudo）
 ```
 sudo usermod -aG docker $USER
 ```
 >> 注意：添加到docker组后，需要重新登录用户才能生效，或者执行：`newgrp docker`
 
-3. 如果遇到权限问题，可以在所有docker命令前加sudo：
+(3). 如果遇到权限问题，可以在所有docker命令前加sudo：
 ```
 sudo docker compose up -d
 sudo docker compose ps
